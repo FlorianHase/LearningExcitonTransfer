@@ -4,9 +4,6 @@ import hickle
 import numpy as np 
 import tensorflow as tf 
 
-from network_manager import NetworkManager
-
-
 #=============================================================================================================================
 
 ActivationFunctions = {descriptor: getattr(tf.nn, descriptor) for descriptor in ['softplus', 'relu', 'elu', 'softsign', 'sigmoid', 'tanh']}
@@ -71,7 +68,7 @@ class Predictor(NetworkManager):
 
 	def _restore(self, file_name = None):
 		if not file_name:
-			file_name = './trained_mlp_%s' % self.network
+			file_name = './Trained_MLPs/trained_mlp_%s' % self.network
 		self.saver.restore(self.session, file_name)
 
 
