@@ -1,7 +1,7 @@
 
-# Exciton energy transfer databases
+# Exciton energy transfer datasets
 
-We provide the results of our exciton dynamics calculations with the HEOM method and the secular Redfield approach on the four datasets presented in the study. Excited state energies and inter-site couplings were sampled uniformly from the ranges in reported in the table below.
+We report the results of our exciton dynamics calculations with the HEOM method and the secular Redfield approach on the four datasets presented in the study. Excited state energies and inter-site couplings were sampled uniformly from the ranges in reported in the table below.
 
 
 | Reference | Sites | Excited state energies [cm<sup>-1</sup>] | Inter-site couplings [cm<sup>-1</sup>] | 
@@ -14,5 +14,7 @@ We provide the results of our exciton dynamics calculations with the HEOM method
 
 Exciton energy transfer times and efficiencies were computed from population dynamics simulations starting from a fully populated site 0. For all Hamiltonians we assumed identical Drude-Lorentz spectral densities and defined site 3 as the target site. Details on the simulations procedure can be found in the paper ...
 
-## How to access the database
+## How to access the datasets
+
+We provide a script `load_dataset.py` which illustrates how to access the datasets. 
 
