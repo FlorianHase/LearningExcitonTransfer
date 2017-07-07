@@ -16,5 +16,9 @@ Exciton energy transfer times and efficiencies were computed from population dyn
 
 ## How to access the datasets
 
-We provide a script `load_dataset.py` which illustrates how to access the datasets. 
+We provide a script `load_dataset.py` which illustrates how to access the datasets. To run the script, simply type 
+```bash
+	python load_dataset.py dataset.hkl
+```
+to load a dataset file called `dataset.hkl`.
 
