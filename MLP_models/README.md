@@ -1,5 +1,5 @@
 
-# Trained MLP models for excitont transfer property predictions
+# Trained MLP models for exciton transfer property predictions
 
 We provide parameters and hyperparameters of trained multi-layer perceptron (MLP) models. All parameters are uploaded for MLPs trained on PCA selected training sets due to the higher accuracy observed for out-of-sample predictions. 
 
