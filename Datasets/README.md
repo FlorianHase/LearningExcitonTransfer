@@ -30,5 +30,5 @@ to load a dataset file called `dataset.hkl`. The dataset contained within the fi
 | `spectral densities`   | `dictionary`  | spectral density paramters             |
 | `transfer_efficiences` | `numpy array` | exciton transfer efficiencies          |  
 | `transfer_times`       | `numpy array` | exciton transfer times [ps]            |
-|  units                 | `dictionary`  | physical units for stored quantities   | 
+| `units`                | `dictionary`  | physical units for stored quantities   | 
 
