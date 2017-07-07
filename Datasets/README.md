@@ -12,5 +12,7 @@ We provide the results of our exciton dynamics calculations with the HEOM method
 | CP47      |   24  |      14500 ... 15300                     |   -100 ... 100                         | 
 
 
-...
+Exciton energy transfer times and efficiencies were computed from population dynamics simulations starting from a fully populated site 0. For all Hamiltonians we assumed identical Drude-Lorentz spectral densities and defined site 3 as the target site. Details on the simulations procedure can be found in the paper ...
+
+## How to access the database
 
