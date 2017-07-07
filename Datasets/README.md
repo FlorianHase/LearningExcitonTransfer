@@ -20,5 +20,15 @@ We provide a script `load_dataset.py` which illustrates how to access the datase
 ```bash
 	python load_dataset.py dataset.hkl
 ```
-to load a dataset file called `dataset.hkl`.
+to load a dataset file called `dataset.hkl`. The dataset contained within the file will then be loaded as a python dictionary. All of our datasets uploaded here contain the information listed in the table below.
+
+| Key                    | Variable type | Contained data                        | 
+| ---------------------- | ------------- | ------------------------------------- |
+| `acceptor`             | `string`      | target site                           | 
+| `donor`                | `string`      | initial site                          | 
+| `hamiltonians`         | `numpy array` | exciton hamiltonians [cm<sup>-1</sup> | 
+| `spectral densities`   | `dictionary`  | spectral density paramters            |
+| `transfer_efficiences` | `numpy array` | exciton transfer efficiencies         |  
+| `transfer_times`       | `numpy array` | exciton transfer times [ps]           |
+|  units                 | `dictionary`  | physical units for stored quantities  | 
 
