@@ -12,5 +12,5 @@ from trainer import Predictor
         predictor.predict('to_predict.hkl')
 ```
 
-Note, that `trainer.py` expects the exciton Hamiltonians to be provided in units of [cm<sup>-1</sup>], to be reshaped into a vector and to be stored under the key `features`.
+Note, that `trainer.py` expects the exciton Hamiltonians to be provided in units of [cm<sup>-1</sup>], to be reshaped into a vector and to be stored under the key `features`. A procedure for generating such a compressed file from a numpy array is illustrated in the script `generate_compressed_file.py`. 
 
